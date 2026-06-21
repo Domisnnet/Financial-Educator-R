@@ -44,7 +44,7 @@ Experimente o Educador em tempo real clicando no botão abaixo:
 
 <div align="left">
   <a href="https://github.com/Domisnnet/Financial-Educator-R" target="_blank">
-    <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
+    <img alt="Botão Acessar" src="src/assets/images/botão.webp" height="70" width="70" />
   </a>
 </div>
 
