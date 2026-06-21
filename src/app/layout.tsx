@@ -4,7 +4,7 @@ import './globals.css';
 import {Toaster} from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'EcoWise AI | Your Intelligent Financial Educator',
+  title: 'Financial Educator AI',
   description: 'Master your finances with AI-driven insights and personalized planning.',
 };
 

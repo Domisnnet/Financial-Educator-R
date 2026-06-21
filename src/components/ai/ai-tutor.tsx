@@ -42,7 +42,7 @@ export function AITutor() {
       <CardHeader className="bg-primary/5 border-b">
         <CardTitle className="flex items-center gap-2 text-lg font-headline">
           <HelpCircle className="text-primary h-5 w-5" />
-          EcoWise Tutor
+          Educador Financeiro Tutor
         </CardTitle>
         <CardDescription>Aprenda educação financeira sem termos difíceis.</CardDescription>
       </CardHeader>

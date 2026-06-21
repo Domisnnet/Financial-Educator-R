@@ -1,6 +1,3 @@
-
-"use client";
-
 import { useState, useEffect } from "react";
 import { 
   Wallet, 
@@ -23,7 +20,7 @@ import { AINudges } from "@/components/ai/ai-nudges";
 import { VisionBoard } from "@/components/goals/vision-board";
 import { Expense, UserProfile, SavingGoal } from "@/lib/types";
 
-export default function EcoWiseDashboard() {
+export default function EducadorFinanceiroDashboard() {
   const [mounted, setMounted] = useState(false);
   const [user] = useState<UserProfile>({
     name: "Alex",
@@ -70,7 +67,7 @@ export default function EcoWiseDashboard() {
           <div className="bg-primary p-2 rounded-xl">
             <Wallet className="text-white h-6 w-6" />
           </div>
-          <span className="text-xl font-headline font-bold tracking-tight">EcoWise AI</span>
+          <span className="text-xl font-headline font-bold tracking-tight">Educador Financeiro AI</span>
         </div>
         
         <nav className="space-y-1 flex-1">
