@@ -7,6 +7,7 @@
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Financial-Educator-React/blob/main/LICENSE)
+![Educador Financeiro](src/assets/images/financial.png)
 
 O **Financial Educator** é uma plataforma moderna desenvolvida para auxiliar usuários no gerenciamento financeiro pessoal, oferecendo uma experiência intuitiva para acompanhamento de receitas, despesas, investimentos, patrimônio e evolução financeira.
 
