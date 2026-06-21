@@ -4,316 +4,200 @@
 
 <h2 id="sobre-o-projeto">1. Financial Educator - Plataforma Inteligente de Educação Financeira 💰📈</h2>
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen?style=flat-square)
-![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square\&logo=react\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square\&logo=firebase\&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
-
-<!-- Inserir logo do projeto -->
-
-<!-- ![Financial Educator](src/assets/logo/logo.svg) -->
+![Status do Deploy](https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen?style=flat-square)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Domisnnet/Financial-Educator-React/blob/main/LICENSE)
+![Plataforma](src/assets/images/financial.png)
 
 O **Financial Educator** é uma plataforma moderna desenvolvida para auxiliar usuários no gerenciamento financeiro pessoal, oferecendo uma experiência intuitiva para acompanhamento de receitas, despesas, investimentos, patrimônio e evolução financeira.
 
 Construída com **React 19**, arquitetura baseada em componentes reutilizáveis e integrada ao ecossistema **Firebase**, a aplicação foi projetada para oferecer desempenho, escalabilidade e uma experiência fluida em dispositivos Desktop, Tablet e Mobile.
 
-Mais do que um simples controle financeiro, o projeto busca aplicar boas práticas de arquitetura Front-end, componentização, gerenciamento de estado, persistência de dados em nuvem e uma interface moderna focada na experiência do usuário.
-
-A arquitetura foi planejada para facilitar futuras expansões, permitindo a inclusão de novos módulos como planejamento financeiro, metas, inteligência artificial, educação financeira, relatórios avançados e integração com APIs externas.
-
 ---
 
-# 📚 Tabela de Conteúdo
+## 📚 Tabela de Conteúdo
 
-|                                           💻 O Projeto                                          |                                          🛠️ Técnico                                          |                                      🤝 Comunidade                                     |
-| :---------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
-|        [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto)       | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) |    [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte)   |
-|    [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas)    |      [![6. Deploy](https://img.shields.io/badge/6%20-%20Deploy-009688)](#fluxo-de-deploy)     |   [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#creditos)  |
-|    [![3. Instalação](https://img.shields.io/badge/3%20-%20Instalação-FF9800)](#como-executar)   |  [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) |    [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca)    |
-| [![4. Recursos](https://img.shields.io/badge/4%20-%20Funcionalidades-9C27B0)](#funcionalidades) |               [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq)              | [![12. Autor](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
+| 💻 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
+| :---: | :---: | :---: |
+| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte) |
+| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Deploy](https://img.shields.io/badge/6%20-%20Deploy-009688)](#fluxo-de-deploy) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
+| [![3. Instalação](https://img.shields.io/badge/3%20-%20Instalação-FF9800)](#como-executar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
+| [![4. Recursos](https://img.shields.io/badge/4%20-%20Funcionalidades-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Autor](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
 ---
 
 <h2 id="tecnologias-utilizadas">2. ⚙️ Tecnologias Utilizadas</h2>
 
-| Camada             | Tecnologias                                                                                                       | Descrição                                                             |
-| :----------------- | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
-| **Framework**      | ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square\&logo=react\&logoColor=white)             | Desenvolvimento SPA utilizando React moderno baseado em componentes.  |
-| **Linguagem**      | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white) | Código totalmente tipado para maior segurança e produtividade.        |
-| **Build Tool**     | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square\&logo=vite\&logoColor=white)                   | Ambiente rápido de desenvolvimento e build otimizado.                 |
-| **UI**             | Componentes Reutilizáveis                                                                                         | Interface modular orientada à reutilização e manutenção.              |
-| **Estilização**    | CSS Moderno / Tailwind *(caso utilizado)*                                                                         | Layout responsivo e organizado utilizando boas práticas de Front-end. |
-| **Backend**        | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square\&logo=firebase\&logoColor=black)       | Authentication, Firestore, Storage e Hosting.                         |
-| **Banco de Dados** | Cloud Firestore                                                                                                   | Persistência de dados em tempo real.                                  |
-| **Autenticação**   | Firebase Authentication                                                                                           | Controle de acesso seguro dos usuários.                               |
-| **Hospedagem**     | Firebase Hosting                                                                                                  | Publicação rápida e integrada ao ecossistema Google.                  |
-| **Versionamento**  | Git + GitHub                                                                                                      | Controle de versão distribuído e colaboração.                         |
+| Camada | Tecnologias | Descrição |
+| :--- | :--- | :--- |
+| **Core** | ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white) | Framework SPA moderno baseado em componentes funcionais. |
+| **Linguagem** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Código totalmente tipado para segurança e produtividade. |
+| **Build Tool** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | Ambiente rápido de desenvolvimento e build otimizado. |
+| **Backend/Host** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) | Authentication, Firestore, Storage e Hosting. |
+| **CI/CD** | ![Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | Automação de builds e deploys contínuos. |
 
 ---
 
-<h2 id="como-executar">3. 🚀 Como Executar o Projeto</h2>
+<h2 id="como-executar">3. 🚀 Como Executar</h2>
 
 ### Pré-requisitos
 
-Antes de iniciar o projeto, certifique-se de possuir instalado:
+- Node.js 20+
+- npm ou yarn
+- Git
+- Firebase CLI (opcional para deploy)
 
-* Node.js 20+
-* npm ou yarn
-* Git
-* Firebase CLI (opcional para deploy)
-
----
-
-### Clonando o Repositório
+### Clonando e Instalando
 
 ```bash
 git clone https://github.com/Domisnnet/Financial-Educator-React.git
-```
-
-```bash
 cd Financial-Educator-React
-```
-
----
-
-### Instalando as Dependências
-
-```bash
 npm install
 ```
 
-ou
-
-```bash
-yarn
-```
-
----
-
-### Executando em Ambiente de Desenvolvimento
+### Executando em Desenvolvimento
 
 ```bash
 npm run dev
 ```
 
-O Vite iniciará um servidor local.
+A aplicação estará disponível em: `http://localhost:5173`
 
-Normalmente a aplicação estará disponível em:
-
-```
-http://localhost:5173
-```
-
----
-
-### Gerando Build de Produção
+### Build de Produção
 
 ```bash
 npm run build
-```
-
----
-
-### Pré-visualizando o Build
-
-```bash
 npm run preview
 ```
 
 ---
 
-### Estrutura Básica do Projeto
+<h2 id="funcionalidades">4. 🧩 Funcionalidades Principais</h2>
+
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| 💰 **Controle Financeiro** | Cadastro de receitas e despesas com categorização. |
+| 📊 **Dashboard** | Visualização resumida da situação financeira. |
+| 📈 **Investimentos** | Controle de carteira de investimentos. |
+| 🏦 **Patrimônio** | Acompanhamento da evolução patrimonial. |
+| 📅 **Histórico** | Registro completo das movimentações. |
+| 🔐 **Login Seguro** | Autenticação com Firebase Authentication. |
+| ☁️ **Sincronização** | Dados na nuvem via Cloud Firestore. |
+| 📱 **Responsividade** | Layout adaptativo Desktop/Tablet/Mobile. |
+
+---
+
+<h2 id="destaques-tecnicos">5. 💻 Destaques Técnicos</h2>
+
+### ✔️ Arquitetura Baseada em Componentes
+
+Cada funcionalidade está isolada em componentes independentes, permitindo reutilização, baixo acoplamento e maior organização.
+
+### ✔️ Organização por Responsabilidade
 
 ```text
-Financial-Educator-React/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── hooks/
-│   ├── services/
-│   ├── contexts/
-│   ├── firebase/
-│   ├── utils/
-│   └── App.tsx
-│
-├── package.json
-├── vite.config.ts
-└── README.md
+components/  pages/  hooks/  contexts/  services/  firebase/  utils/  assets/
 ```
 
+Cada diretório possui responsabilidade específica, facilitando manutenção.
+
+### ✔️ Tipagem com TypeScript
+
+Todo o código utiliza TypeScript proporcionando:
+
+- Maior segurança durante o desenvolvimento
+- Melhor suporte da IDE
+- Prevenção de erros em tempo de compilação
+- Documentação implícita através de interfaces
+
+### ✔️ Firebase Cloud
+
+Infraestrutura totalmente em nuvem com:
+
+- Authentication
+- Cloud Firestore
+- Storage
+- Hosting
+
 ---
 
-A arquitetura foi organizada para facilitar manutenção, escalabilidade e reutilização de componentes, seguindo práticas modernas do ecossistema React.
+<h2 id="fluxo-de-deploy">6. 📦 Fluxo de Deploy</h2>
 
----
+O deploy utiliza Firebase Hosting integrado ao GitHub.
 
-**➡️ Continuação na Parte 2:** Funcionalidades, Destaques Técnicos, Arquitetura React, Firebase e Organização do Projeto.
-
-<h2 id="funcionalidades">4. 🚀 Funcionalidades</h2>
-
-A plataforma foi projetada para evoluir continuamente. Atualmente possui uma arquitetura preparada para suportar diversos módulos financeiros.
-
-Funcionalidade	Descrição
-💰 Controle Financeiro	Cadastro de receitas e despesas.
-📊 Dashboard	Visualização resumida da situação financeira.
-📈 Investimentos	Controle de carteira de investimentos.
-🏦 Patrimônio	Acompanhamento da evolução patrimonial.
-📅 Histórico Financeiro	Registro completo das movimentações.
-🔐 Login Seguro	Autenticação utilizando Firebase Authentication.
-☁️ Sincronização	Dados armazenados na nuvem via Firestore.
-📱 Responsividade	Interface adaptável para Desktop, Tablet e Mobile.
-🌙 Tema Escuro (planejado)	Alternância entre Dark e Light Mode.
-🤖 Inteligência Artificial (planejado)	Recomendações financeiras inteligentes.
-🎯 Metas Financeiras (planejado)	Definição e acompanhamento de objetivos.
-📄 Relatórios (planejado)	Exportação de dados em PDF e Excel.
-🔔 Notificações (planejado)	Alertas e lembretes financeiros.
-<h2 id="destaques-tecnicos">5. 🛠️ Destaques Técnicos</h2>
-
-O projeto foi desenvolvido utilizando práticas modernas do ecossistema React, visando escalabilidade, manutenção simplificada e reutilização de código.
-
-✔ Arquitetura baseada em Componentes
-
-Cada funcionalidade é isolada em componentes independentes, permitindo reutilização, baixo acoplamento e maior organização do projeto.
-
-✔ Organização por Responsabilidade
-components/
-pages/
-hooks/
-contexts/
-services/
-firebase/
-utils/
-assets/
-
-Cada diretório possui uma responsabilidade específica, facilitando manutenção e crescimento da aplicação.
-
-✔ Tipagem com TypeScript
-
-Todo o código utiliza TypeScript para proporcionar:
-
-maior segurança durante o desenvolvimento;
-melhor suporte da IDE;
-prevenção de erros em tempo de compilação;
-documentação implícita através das interfaces.
-✔ Firebase
-
-O ecossistema Firebase é utilizado para fornecer:
-
-Authentication
-Cloud Firestore
-Storage
-Hosting
-
-permitindo uma infraestrutura totalmente em nuvem.
-
-✔ React 19
-
-O projeto utiliza recursos modernos do React, incluindo:
-
-Componentes Funcionais
-Hooks
-Context API
-Lazy Loading
-Code Splitting
-Gerenciamento de Estado
-Componentização
-✔ Performance
-
-Boas práticas adotadas:
-
-Componentes reutilizáveis
-Organização modular
-Renderização otimizada
-Separação de responsabilidades
-Estrutura preparada para crescimento
-<h2 id="fluxo-de-deploy">6. 🚀 Fluxo de Deploy</h2>
-
-O deploy da aplicação é realizado utilizando o Firebase Hosting.
-
-Build
+```bash
 npm run build
-Login no Firebase
 firebase login
-Inicializar Hosting
 firebase init hosting
-Deploy
 firebase deploy
+```
 
-Após o deploy, a aplicação estará disponível através da URL fornecida pelo Firebase Hosting.
+Após o deploy, a aplicação estará disponível na URL fornecida pelo Firebase Hosting.
+
+---
 
 <h2 id="como-contribuir">7. 🤝 Como Contribuir</h2>
 
-Contribuições são sempre bem-vindas.
+Siga os passos abaixo para fortalecer este projeto:
 
-Caso deseje colaborar com o projeto:
+| Fase | Ação | Link / Comando |
+| :---: | :--- | :--- |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Financial-Educator-React/fork) |
+| **02** | **Branch** | `git checkout -b feature/nova-funcionalidade` |
+| **03** | **Commit** | `git commit -m 'feat: add nova funcionalidade'` |
+| **04** | **Push** | `git push origin feature/nova-funcionalidade` |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Financial-Educator-React/compare) |
 
-# Fork do projeto
+### 🐛 Encontrou um problema?
 
-# Clone
-
-git clone https://github.com/SEU-USUARIO/Financial-Educator-React.git
-
-# Criar uma branch
-
-git checkout -b feature/nova-funcionalidade
-
-# Commit
-
-git commit -m "feat: adiciona nova funcionalidade"
-
-# Push
-
-git push origin feature/nova-funcionalidade
-
-# Abrir Pull Request
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Financial-Educator-React?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Financial-Educator-React/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Financial-Educator-React/issues/new)
 
 ---
 
-<h2 id="faq">8. ❓ FAQ</h2>
-O projeto é gratuito?
+<h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
-Sim. O projeto é open source.
+<details>
+<summary><strong>O projeto é gratuito? ❓</strong></summary>
+<p>✅ <strong>Resposta:</strong> Sim. O projeto é open source sob licença MIT.</p>
+</details>
 
-Posso utilizar como base para estudos?
+<details>
+<summary><strong>Posso utilizar como base para estudos? ❓</strong></summary>
+<p>✅ <strong>Resposta:</strong> Sim. O objetivo é servir como referência para desenvolvimento Front-end com React e Firebase.</p>
+</details>
 
-Sim. O objetivo é justamente servir como referência para desenvolvimento Front-end utilizando React e Firebase.
+<details>
+<summary><strong>Existe versão Mobile? ❓</strong></summary>
+<p>✅ <strong>Resposta:</strong> Sim. A aplicação possui layout responsivo para Desktop, Tablet e Mobile.</p>
+</details>
 
-Existe versão Mobile?
+<details>
+<summary><strong>O projeto utiliza Backend próprio? ❓</strong></summary>
+<p>❌ <strong>Resposta:</strong> Não. Toda infraestrutura baseia-se no Firebase.</p>
+</details>
 
-A aplicação possui layout responsivo e funciona em dispositivos móveis.
-
-O projeto utiliza Backend próprio?
-
-Não.
-
-Toda a infraestrutura é baseada no Firebase.
-
-O projeto aceita contribuições?
-
-Sim.
-
-Issues, Pull Requests e sugestões são sempre bem-vindas.
-
----
-
-# <h2 id="codigo-fonte">9. 💻 Código-Fonte</h2>
-
-O código foi desenvolvido seguindo boas práticas de desenvolvimento Front-end, priorizando organização, reutilização de componentes, escalabilidade e facilidade de manutenção.
-
-A arquitetura foi estruturada para separar responsabilidades entre componentes, páginas, serviços, hooks e contextos, permitindo que novas funcionalidades possam ser adicionadas sem impactar a estrutura existente.
+<details>
+<summary><strong>O projeto aceita contribuições? ❓</strong></summary>
+<p>✅ <strong>Resposta:</strong> Sim. Issues, Pull Requests e sugestões são sempre bem-vindas.</p>
+</details>
 
 ---
 
-## Estrutura do Projeto
+<h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
+
+Explore a arquitetura React completa no repositório oficial:
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=fff)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FFinancial-Educator-React-61DAFB?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/Financial-Educator-React)
+
+### Estrutura do Projeto
 
 ```text
 Financial-Educator-React/
 │
 ├── public/
-│
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -331,90 +215,57 @@ Financial-Educator-React/
 └── README.md
 ```
 
----
-
-## Organização dos Diretórios
-
-| Diretório       | Responsabilidade                                  |
-| :-------------- | :------------------------------------------------ |
-| **assets/**     | Imagens, ícones e arquivos estáticos.             |
-| **components/** | Componentes reutilizáveis da aplicação.           |
-| **contexts/**   | Gerenciamento de estado utilizando Context API.   |
-| **firebase/**   | Configuração dos serviços do Firebase.            |
-| **hooks/**      | Hooks customizados para reutilização de lógica.   |
-| **pages/**      | Páginas principais da aplicação.                  |
-| **services/**   | Comunicação com Firebase e futuras APIs externas. |
-| **utils/**      | Funções auxiliares compartilhadas entre módulos.  |
+| Diretório | Responsabilidade |
+| :--- | :--- |
+| **assets/** | Imagens, ícones e arquivos estáticos. |
+| **components/** | Componentes reutilizáveis. |
+| **contexts/** | Gerenciamento com Context API. |
+| **firebase/** | Configuração Firebase. |
+| **hooks/** | Hooks customizados. |
+| **pages/** | Páginas principais. |
+| **services/** | Comunicação Firebase/APIs. |
+| **utils/** | Funções auxiliares. |
 
 ---
 
-A estrutura foi planejada para manter baixo acoplamento entre módulos, facilitando a manutenção e permitindo o crescimento contínuo da aplicação conforme novas funcionalidades forem sendo implementadas.
+<h2 id="créditos">10. 📝 Créditos & Reconhecimentos</h2>
+
+| Atribuição | Responsável / Recurso | Descrição |
+| :--- | :--- | :--- |
+| **Full-Stack Dev** | **Domisnnet** | Design, Arquitetura React e Configuração DevOps. |
+| **Infraestrutura** | **Google Firebase** | Provedor de Hosting e serviços cloud. |
+| **Tecnologias** | **React/TypeScript/Vite** | Comunidades abertas pela evolução contínua. |
 
 ---
 
-# <h2 id="creditos">10. 🙏 Créditos</h2>
+<h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto foi desenvolvido utilizando tecnologias modernas e ferramentas amplamente adotadas pela comunidade de desenvolvimento Web.
-
-Agradecimentos especiais às comunidades responsáveis pela evolução contínua destas tecnologias:
-
-* React
-* TypeScript
-* Vite
-* Firebase
-* Git
-* GitHub
-
-Sem essas ferramentas, o desenvolvimento de aplicações modernas, escaláveis e de alta qualidade seria muito mais complexo.
+Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Financial-Educator-React/blob/main/LICENSE)
 
 ---
 
-# <h2 id="licenca">11. 📄 Licença</h2>
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-Este projeto está distribuído sob a licença **MIT**.
-
-Isso significa que o código pode ser utilizado, estudado, modificado e distribuído livremente, desde que sejam mantidos os créditos da licença original.
-
-Para mais informações, consulte o arquivo:
-
-```text
-LICENSE
-```
-
----
-
-# <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
-
-Desenvolvido por **Domisnnet**.
-
-Caso este projeto tenha sido útil para você, considere apoiar o desenvolvimento através das seguintes ações:
-
-* ⭐ Deixar uma estrela no repositório;
-* 🍴 Fazer um Fork do projeto;
-* 🐛 Reportar Bugs através das Issues;
-* 💡 Compartilhar sugestões de melhorias;
-* 🚀 Contribuir com Pull Requests.
-
-Toda contribuição é muito bem-vinda e ajuda a tornar este projeto cada vez melhor.
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/assets/images/DomisDev.png" width="90" style="border-radius: 50%" alt="Domisnnet GitHub"> 
+</a>
 
 ---
 
 ## 🌟 Considerações Finais
 
-O **Financial Educator** foi desenvolvido com o objetivo de unir tecnologia, organização e educação financeira em uma única plataforma.
+O **Financial Educator** foi desenvolvido unindo tecnologia, organização e educação financeira em uma plataforma única.
 
-Além de servir como ferramenta para gerenciamento financeiro pessoal, o projeto também representa uma aplicação prática de conceitos modernos de desenvolvimento Front-end utilizando **React**, **TypeScript**, **Vite** e **Firebase**, seguindo princípios de componentização, reutilização de código e arquitetura escalável.
+Além de ser ferramenta para gerenciamento financeiro pessoal, representa aplicação prática de conceitos modernos com **React**, **TypeScript**, **Vite** e **Firebase**, seguindo princípios de componentização e arquitetura escalável.
 
-Novas funcionalidades continuarão sendo implementadas, tornando a plataforma cada vez mais completa para usuários e também uma excelente referência para estudos e evolução técnica.
+Novas funcionalidades continuarão sendo implementadas.
 
 ---
 
 <div align="center">
-
 ### 💰 Financial Educator
 
 **Transformando educação financeira em tecnologia, organização e inteligência.**
 
 Desenvolvido com ❤️ utilizando **React**, **TypeScript**, **Vite** e **Firebase**.
-
 </div>
