@@ -1,6 +1,4 @@
-# ![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/Financial-Educator-React?style=for-the-badge)
-# ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Financial-Educator-React?style=for-the-badge)
-# ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Financial-Educator-React?style=for-the-badge)
+# ![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/Financial-Educator-React?style=for-the-badge)# ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Financial-Educator-React?style=for-the-badge)# ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Financial-Educator-React?style=for-the-badge)
 
 <h2 id="sobre-o-projeto">1. Financial Educator - Plataforma Inteligente de Educação Financeira 💰📈</h2>
 
@@ -165,7 +163,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <details>
 <summary><strong>Posso utilizar como base para estudos? ❓</strong></summary>
-<p>✅ <strong>Resposta:</strong> Sim. O objetivo é servir como referência para desenvolvimento Front-end com React e Firebase.</p>
+<p>✅ <strong>Resposta:</strong> Sim. O objetivo é servir como referência para desenvolvimento Front-end com React e Firebase.Só não se esqueça de dar os devidos Créditos</p>
 </details>
 
 <details>
@@ -244,13 +242,7 @@ Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-M
 
 ---
 
-<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
-
-<a href="https://github.com/Domisnnet"> 
-  <img src="src/assets/images/DomisDev.png" width="90" style="border-radius: 50%" alt="Domisnnet GitHub"> 
-</a>
-
----
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub / Considerações</h2>
 
 ## 🌟 Considerações Finais
 
@@ -269,3 +261,7 @@ Novas funcionalidades continuarão sendo implementadas.
 
 Desenvolvido com ❤️ utilizando **React**, **TypeScript**, **Vite** e **Firebase**.
 </div>
+
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/assets/images/DomisDev.png" width="90" style="border-radius: 50%" alt="Domisnnet GitHub"> 
+</a>
