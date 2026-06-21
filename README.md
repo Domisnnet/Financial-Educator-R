@@ -40,10 +40,10 @@ Construída com **React 19**, arquitetura baseada em componentes reutilizáveis 
 
 <h2 id="como-acessar">3. 🚀 Como Acessar</h2>
 
-Experimente a calculadora em tempo real clicando no botão abaixo:
+Experimente o Educador em tempo real clicando no botão abaixo:
 
 <div align="left">
-  <a href="https://calculator-react-2442973-c30be.web.app/" target="_blank">
+  <a href="https://github.com/Domisnnet/Financial-Educator-R" target="_blank">
     <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
   </a>
 </div>
