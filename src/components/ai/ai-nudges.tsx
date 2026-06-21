@@ -1,3 +1,5 @@
+"use client"
+
 import { useEffect, useState } from "react";
 import { aiBehavioralNudges, AiBehavioralNudgesOutput } from "@/ai/flows/ai-behavioral-nudges";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
