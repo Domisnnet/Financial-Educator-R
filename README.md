@@ -2,16 +2,16 @@
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Financial-Educator-React?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Financial-Educator-React?style=for-the-badge)
 
-<h2 id="sobre-o-projeto">1. Financial Educator - Plataforma Inteligente de Educação Financeira 💰📈</h2>
+<h2 id="sobre-o-projeto">1. Educador Financeiro Inteligente 💰📈</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Financial-Educator-React/blob/main/LICENSE)
 ![Educador Financeiro](src/assets/images/financial.png)
 
-O **Financial Educator** é uma plataforma moderna desenvolvida para auxiliar usuários no gerenciamento financeiro pessoal, oferecendo uma experiência intuitiva para acompanhamento de receitas, despesas, investimentos, patrimônio e evolução financeira.
+O **Educador Financeiro Inteligente** é uma plataforma pensada para jovens universitários e pessoas que estão começando a trabalhar. O objetivo é ajudar o usuário a controlar gastos, criar metas simples de economia e receber orientações práticas para evitar que o dinheiro acabe no início do mês.
 
-Construída com **React 19**, arquitetura baseada em componentes reutilizáveis e integrada ao ecossistema **Firebase**, a aplicação foi projetada para oferecer desempenho, escalabilidade e uma experiência fluida em dispositivos Desktop, Tablet e Mobile.
+A proposta prioriza uma experiência clara, amigável e objetiva, com recomendações personalizadas com base em renda mensal, idade e objetivos financeiros. Tudo foi pensado para ser fácil de entender, mesmo para quem está dando os primeiros passos na organização financeira.
 
 ---
 
@@ -22,7 +22,7 @@ Construída com **React 19**, arquitetura baseada em componentes reutilizáveis 
 | [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Destaques](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#destaques-tecnicos) | [![9. Código](https://img.shields.io/badge/9%20-%20Código-795548)](#codigo-fonte) |
 | [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Deploy](https://img.shields.io/badge/6%20-%20Deploy-009688)](#fluxo-de-deploy) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#créditos) |
 | [![3. Acessar](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#como-acessar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#como-contribuir) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
-| [![4. Recursos](https://img.shields.io/badge/4%20-%20Funcionalidades-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Autor](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
+| [![4. Recursos](https://img.shields.io/badge/4%20-%20Funcionalidades-9C27B0)](#funcionalidades) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
 ---
 
@@ -31,7 +31,7 @@ Construída com **React 19**, arquitetura baseada em componentes reutilizáveis 
 | Camada | Tecnologias | Descrição |
 | :--- | :--- | :--- |
 | **Core** | ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white) | Framework SPA moderno baseado em componentes funcionais. |
-| **Linguagem** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Código totalmente tipado para segurança e produtividade. |
+| **Linguagem** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Código tipado para mais segurança e manutenção. |
 | **Build Tool** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | Ambiente rápido de desenvolvimento e build otimizado. |
 | **Backend/Host** | ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) | Authentication, Firestore, Storage e Hosting. |
 | **CI/CD** | ![Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) | Automação de builds e deploys contínuos. |
@@ -43,11 +43,10 @@ Construída com **React 19**, arquitetura baseada em componentes reutilizáveis 
 Experimente o Educador em tempo real clicando no botão abaixo:
 
 <div align="left">
-  <a href="https://github.com/Domisnnet/Financial-Educator-R" target="_blank">
+  <a href="https://github.com/Domisnnet/Financial-Educator-React" target="_blank">
     <img alt="Botão Acessar" src="src/assets/images/botão.webp" height="70" width="70" />
   </a>
 </div>
-
 
 ---
 
@@ -55,14 +54,14 @@ Experimente o Educador em tempo real clicando no botão abaixo:
 
 | Funcionalidade | Descrição |
 | :--- | :--- |
-| 💰 **Controle Financeiro** | Cadastro de receitas e despesas com categorização. |
-| 📊 **Dashboard** | Visualização resumida da situação financeira. |
-| 📈 **Investimentos** | Controle de carteira de investimentos. |
-| 🏦 **Patrimônio** | Acompanhamento da evolução patrimonial. |
-| 📅 **Histórico** | Registro completo das movimentações. |
-| 🔐 **Login Seguro** | Autenticação com Firebase Authentication. |
+| 💰 **Controle simples de gastos** | Cadastro de receitas e despesas com visualização clara do saldo mensal. |
+| 📊 **Painel de gastos** | Resumo rápido para entender onde o dinheiro está sendo usado. |
+| ⚠️ **Alertas de despesas exageradas** | Avisos quando uma categoria ultrapassa limites recomendados. |
+| 🎯 **Simulação de metas de economia** | Criação de metas pequenas e realistas com base na renda disponível. |
+| 🤖 **Dicas personalizadas** | Recomendações ajustadas conforme renda mensal, idade e objetivos. |
+| 📱 **Responsividade** | Layout adaptativo para Desktop, Tablet e Mobile. |
 | ☁️ **Sincronização** | Dados na nuvem via Cloud Firestore. |
-| 📱 **Responsividade** | Layout adaptativo Desktop/Tablet/Mobile. |
+| 🔐 **Login Seguro** | Autenticação com Firebase Authentication. |
 
 ---
 
@@ -70,7 +69,7 @@ Experimente o Educador em tempo real clicando no botão abaixo:
 
 ### ✔️ Arquitetura Baseada em Componentes
 
-Cada funcionalidade está isolada em componentes independentes, permitindo reutilização, baixo acoplamento e maior organização.
+Cada funcionalidade é separada em componentes independentes, permitindo reutilização, baixo acoplamento e organização clara.
 
 ### ✔️ Organização por Responsabilidade
 
@@ -78,25 +77,25 @@ Cada funcionalidade está isolada em componentes independentes, permitindo reuti
 components/  pages/  hooks/  contexts/  services/  firebase/  utils/  assets/
 ```
 
-Cada diretório possui responsabilidade específica, facilitando manutenção.
+Cada diretório possui uma responsabilidade específica, facilitando manutenção e evolução do projeto.
 
 ### ✔️ Tipagem com TypeScript
 
-Todo o código utiliza TypeScript proporcionando:
+Todo o código utiliza TypeScript, proporcionando:
 
-- Maior segurança durante o desenvolvimento
-- Melhor suporte da IDE
-- Prevenção de erros em tempo de compilação
-- Documentação implícita através de interfaces
+- Mais segurança durante o desenvolvimento.
+- Melhor suporte da IDE.
+- Prevenção de erros em tempo de compilação.
+- Interfaces mais claras para o time.
 
 ### ✔️ Firebase Cloud
 
-Infraestrutura totalmente em nuvem com:
+Infraestrutura em nuvem com:
 
-- Authentication
-- Cloud Firestore
-- Storage
-- Hosting
+- Authentication.
+- Cloud Firestore.
+- Storage.
+- Hosting.
 
 ---
 
@@ -111,7 +110,7 @@ firebase init hosting
 firebase deploy
 ```
 
-Após o deploy, a aplicação estará disponível na URL fornecida pelo Firebase Hosting.
+Após o deploy, a aplicação ficará disponível na URL configurada pelo Firebase Hosting.
 
 ---
 
@@ -143,7 +142,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <details>
 <summary><strong>Posso utilizar como base para estudos? ❓</strong></summary>
-<p>✅ <strong>Resposta:</strong> Sim. O objetivo é servir como referência para desenvolvimento Front-end com React e Firebase.Só não se esqueça de dar os devidos Créditos</p>
+<p>✅ <strong>Resposta:</strong> Sim. O objetivo é servir como referência para desenvolvimento Front-end com React e Firebase. Só não se esqueça de dar os devidos créditos.</p>
 </details>
 
 <details>
@@ -153,7 +152,7 @@ Siga os passos abaixo para fortalecer este projeto:
 
 <details>
 <summary><strong>O projeto utiliza Backend próprio? ❓</strong></summary>
-<p>❌ <strong>Resposta:</strong> Não. Toda infraestrutura baseia-se no Firebase.</p>
+<p>❌ <strong>Resposta:</strong> Não. Toda a infraestrutura baseia-se no Firebase.</p>
 </details>
 
 <details>
@@ -210,9 +209,9 @@ Financial-Educator-React/
 
 | Atribuição | Responsável / Recurso | Descrição |
 | :--- | :--- | :--- |
-| **Full-Stack Dev** | **Domisnnet** | Design, Arquitetura React e Configuração DevOps. |
+| **Full-Stack Dev** | **Domisnnet** | Design, arquitetura React e configuração DevOps. |
 | **Infraestrutura** | **Google Firebase** | Provedor de Hosting e serviços cloud. |
-| **Tecnologias** | **React/TypeScript/Vite** | Comunidades abertas pela evolução contínua. |
+| **Tecnologias** | **React / TypeScript / Vite** | Comunidades abertas pela evolução contínua. |
 
 ---
 
@@ -226,16 +225,16 @@ Este projeto está sob a [![Licença MIT](https://img.shields.io/badge/License-M
 
 ## 🌟 Considerações Finais
 
-O **Financial Educator** foi desenvolvido unindo tecnologia, organização e educação financeira em uma plataforma única.
+O **Educador Financeiro Inteligente** une tecnologia, organização e educação financeira em uma plataforma focada em jovens que estão começando a trabalhar.
 
-Além de ser ferramenta para gerenciamento financeiro pessoal, representa aplicação prática de conceitos modernos com **React**, **TypeScript**, **Vite** e **Firebase**, seguindo princípios de componentização e arquitetura escalável.
+Além de ajudar no controle de gastos e na criação de metas simples, o projeto oferece uma base moderna para evoluir com novos recursos, mantendo a experiência amigável, clara e objetiva.
 
-Novas funcionalidades continuarão sendo implementadas.
+Novas funcionalidades podem ser adicionadas para deixar a jornada financeira ainda mais prática.
 
 ---
 
 <div align="center">
-💰 Financial Educator
+💰 Educador Financeiro Inteligente
 
 **Transformando educação financeira em tecnologia, organização e inteligência.**
 
