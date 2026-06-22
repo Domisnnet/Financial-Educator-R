@@ -43,7 +43,7 @@ A proposta prioriza uma experiência clara, amigável e objetiva, com recomenda�
 Experimente o Educador em tempo real clicando no botão abaixo:
 
 <div align="left">
-  <a href="https://github.com/Domisnnet/Financial-Educator-React" target="_blank">
+  <a href="https://studio--studio-6049017955-446d7.us-central1.hosted.app/" target="_blank">
     <img alt="Botão Acessar" src="src/assets/images/botão.webp" height="70" width="70" />
   </a>
 </div>
