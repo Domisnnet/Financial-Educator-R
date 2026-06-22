@@ -231,13 +231,7 @@ Além de ajudar no controle de gastos e na criação de metas simples, o projeto
 
 Novas funcionalidades podem ser adicionadas para deixar a jornada financeira ainda mais prática.
 
----
-
-## 💰 Educador Financeiro Inteligente
-
-**Transformando educação financeira em tecnologia, organização e inteligência.**
-
-Desenvolvido com ❤️ utilizando **React**, **TypeScript**, **Vite** e **Firebase**.
+Para conhecer todos os meus projetos acesse meu Repositório no GitHub:
 
 <a href="https://github.com/Domisnnet"> 
   <img src="src/assets/images/DomisDev.png" width="90" style="border-radius: 50%" alt="Domisnnet GitHub"> 
