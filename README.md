@@ -233,8 +233,7 @@ Novas funcionalidades podem ser adicionadas para deixar a jornada financeira ain
 
 ---
 
-<div align="center">
-💰 Educador Financeiro Inteligente
+## 💰 Educador Financeiro Inteligente
 
 **Transformando educação financeira em tecnologia, organização e inteligência.**
 
@@ -243,4 +242,3 @@ Desenvolvido com ❤️ utilizando **React**, **TypeScript**, **Vite** e **Fireb
 <a href="https://github.com/Domisnnet"> 
   <img src="src/assets/images/DomisDev.png" width="90" style="border-radius: 50%" alt="Domisnnet GitHub"> 
 </a>
-</div>
