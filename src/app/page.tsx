@@ -1,17 +1,6 @@
 'use client'
-
 import { useState, useEffect } from "react";
-import { 
-  Wallet, 
-  TrendingUp, 
-  ArrowUpRight, 
-  ArrowDownRight, 
-  LayoutDashboard, 
-  History, 
-  User as UserIcon, 
-  Settings,
-  Bell
-} from "lucide-react";
+import { Wallet, TrendingUp, ArrowUpRight, ArrowDownRight, LayoutDashboard, History, User as UserIcon, Settings, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { StatCard } from "@/components/dashboard/stat-card";
 import { ExpenseLogger } from "@/components/expenses/expense-logger";
@@ -30,26 +19,21 @@ export default function EducadorFinanceiroDashboard() {
     monthlyIncome: 2800,
     financialGoals: "Montar reserva financeira e comprar um MacBook"
   });
-
   const [expenses, setExpenses] = useState<Expense[]>([
     { id: '1', amount: 350, category: 'Alimentação', description: 'Mercado Mensal', date: new Date().toISOString() },
     { id: '2', amount: 80, category: 'Transporte', description: 'Combustível', date: new Date().toISOString() },
     { id: '3', amount: 150, category: 'Lazer', description: 'Jantar Sábado', date: new Date().toISOString() },
     { id: '4', amount: 200, category: 'Estudos', description: 'Curso Online', date: new Date().toISOString() },
   ]);
-
   const [goals, setGoals] = useState<SavingGoal[]>([
     { id: '1', title: 'Reserva de Emergência', targetAmount: 5000, currentAmount: 1200 },
     { id: '2', title: 'Novo Notebook', targetAmount: 3500, currentAmount: 850 },
   ]);
-
   useEffect(() => {
     setMounted(true);
   }, []);
-
   const totalSpent = expenses.reduce((acc, curr) => acc + curr.amount, 0);
   const balance = user.monthlyIncome - totalSpent;
-
   const addExpense = (newExp: Omit<Expense, 'id' | 'date'>) => {
     const expense: Expense = {
       ...newExp,
@@ -58,9 +42,7 @@ export default function EducadorFinanceiroDashboard() {
     };
     setExpenses(prev => [expense, ...prev]);
   };
-
   if (!mounted) return null;
-
   return (
     <div className="flex min-h-screen bg-background text-foreground">
       {/* Sidebar - Hidden on mobile */}
@@ -71,7 +53,6 @@ export default function EducadorFinanceiroDashboard() {
           </div>
           <span className="text-xl font-headline font-bold tracking-tight">Educador Financeiro AI</span>
         </div>
-        
         <nav className="space-y-1 flex-1">
           <Button variant="ghost" className="w-full justify-start gap-3 bg-primary/5 text-primary rounded-xl font-medium">
             <LayoutDashboard size={20} />
@@ -90,7 +71,6 @@ export default function EducadorFinanceiroDashboard() {
             Perfil
           </Button>
         </nav>
-
         <div className="mt-auto pt-6 border-t">
           <Button variant="ghost" className="w-full justify-start gap-3 text-muted-foreground rounded-xl">
             <Settings size={20} />
@@ -98,8 +78,6 @@ export default function EducadorFinanceiroDashboard() {
           </Button>
         </div>
       </aside>
-
-      {/* Main Content */}
       <main className="flex-1 p-4 lg:p-8 space-y-8 overflow-y-auto">
         <header className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
@@ -113,8 +91,6 @@ export default function EducadorFinanceiroDashboard() {
             </div>
           </div>
         </header>
-
-        {/* Top Summary Cards */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <StatCard 
             title="Renda Mensal" 
@@ -138,18 +114,13 @@ export default function EducadorFinanceiroDashboard() {
             trend={{ value: "Seguro", isPositive: true }}
           />
         </section>
-
-        {/* Bento Grid Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-          {/* Left Column (8 units) */}
           <div className="lg:col-span-8 space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ExpenseLogger onAddExpense={addExpense} />
               <SpendingChart expenses={expenses} />
             </div>
-            
             <ProsperityPlanner userProfile={user} />
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <VisionBoard goals={goals} />
               <div className="bg-white rounded-2xl p-6 shadow-sm border-none">
@@ -176,8 +147,6 @@ export default function EducadorFinanceiroDashboard() {
               </div>
             </div>
           </div>
-
-          {/* Right Column (4 units) */}
           <div className="lg:col-span-4 space-y-6">
             <AINudges expenses={expenses} userProfile={user} />
             <div className="h-[500px]">
